@@ -258,6 +258,65 @@ main {
   padding: 8px;
 }
 
+.page-contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 50px;
+}
+
+#contact-arrow {
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    left: 10px;
+    top: 5px;
+    font-size: 6vw;
+    text-decoration: none;
+    color: var(--text);
+}
+
+#titre-contact {
+    font-size: 200%;
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+form input,
+form textarea {
+  background-color: var(--second-color);
+  border: 0;
+  width: 400px;
+  padding: 8px;
+  border-radius: 5px;
+  margin: 10px;
+}
+
+form #form-submit {
+    display: flex;
+    justify-content: center;
+}
+
+form #submit {
+    color: var(--text-blanc);
+    background-color: #333333;
+}
+
+form textarea {
+    width: 825px;
+}
+
+form textarea::placeholder {
+    margin-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 footer {
   padding: 30px 20px;
   display: flex;
