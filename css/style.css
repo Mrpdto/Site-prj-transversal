@@ -258,8 +258,28 @@ main {
   padding: 8px;
 }
 
+.page-contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 50px;
+}
+
+#contact-arrow {
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    left: 10px;
+    top: 5px;
+    font-size: 6vw;
+    text-decoration: none;
+    color: var(--text);
+}
+
 #titre-contact {
     font-size: 200%;
+    margin-bottom: 20px;
 }
 
 form {
