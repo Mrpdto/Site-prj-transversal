@@ -258,6 +258,10 @@ main {
   padding: 8px;
 }
 
+#titre-contact {
+    font-size: 200%;
+}
+
 form {
     display: flex;
     flex-direction: column;
