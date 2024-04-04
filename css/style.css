@@ -77,7 +77,8 @@ header .menu .menu-contact a {
   position: relative;
   font-weight: 500;
   color: var(--text);
-  font-size: 20px;  text-decoration: none;
+  font-size: 20px;
+  text-decoration: none;
 }
 
 .menu .menu-normal a::before {
@@ -176,9 +177,9 @@ main {
 }
 
 .main-2 .titre h2 {
-    font-weight: 300;
-    font-size: 60px;
-    text-transform: uppercase;
+  font-weight: 300;
+  font-size: 60px;
+  text-transform: uppercase;
 }
 
 .main-3 {
@@ -272,7 +273,9 @@ footer h4 {
   font-weight: 300;
 }
 
-footer ul {
+footer ul,
+footer a {
+  text-decoration: none;
   list-style-type: none;
   color: #ffffffa3;
 }
