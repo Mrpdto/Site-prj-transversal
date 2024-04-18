@@ -1,14 +1,22 @@
-main{
-    margin: 50px 0px;
+main {
+  margin: 50px 0px;
 }
 
-.news{
-    width: 90%;
-    margin: 20px 0px;
+.news {
+  width: 90%;
+  margin: 20px 0px;
 }
 
-.contenu{
-    width: 100%;
-    height: 400px;
-    background-color: #AFB5A2;
-    }
+.contenu {
+  width: 100%;
+  padding: 10px;
+  background-color: #afb5a2;
+}
+
+.contenu p, .contenu h3, .contenu ul {
+    margin: 20px;
+}
+
+.contenu h3 {
+    text-align: center;
+}
