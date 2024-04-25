@@ -72,14 +72,63 @@ main {
 }
 
 .main-2 {
-  margin: 100px 0px;
+  margin-top: 100px;
   width: 90%;
+  height: 700px;
 }
 
 .main-2 .titre h2 {
   font-weight: 300;
   font-size: 60px;
   text-transform: uppercase;
+}
+
+.sticky {
+  position: sticky;
+  top: 0;
+}
+
+.main-2 .part-text{
+  margin-left: 20px;
+  height: 700px;
+  display: flex;
+  justify-content: right;
+  flex-direction: column;
+}
+
+.main-2 h2 {
+  font-weight: 300;
+  font-size: 25px;
+}
+
+.main-2 .contenu {
+  width: 90%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 40% 1% 39%;
+}
+
+.main-2 .vl {
+  border-left: 6px solid #333;
+  height: 600px;
+}
+
+.box {
+  width: 180px;
+  height: 350px;
+  font-size: 30px;
+  display: grid;
+  place-content: center;
+}
+
+.main-2 .contenu .part-text:has(.sticky) {
+  height: 700px;
+}
+
+.main-2 .contenu .part-problematique {
+  position: -webkit-sticky;
+  position: sticky;
+  height: 50px;
 }
 
 .main-3 {
