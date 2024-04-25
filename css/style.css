@@ -127,6 +127,8 @@ main {
   height: 100%;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
+  border-radius: 10px;
+
 }
 
 .main-3 .flip-card-front {
