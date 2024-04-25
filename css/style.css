@@ -220,4 +220,58 @@ form textarea::placeholder {
 }
 
 
+@media screen and (max-width: 1377px){
+  .part-2 .part-2-titre h1{
+    font-size: 60px;
+  }
+  .part-2 .part-2-texte{
+    font-size: 15px;
+  }
+  .main-1 .titre .part-1 h2{
+    font-size: 50px;
+  }
+}
+
+@media screen and (max-width: 1200px){
+  .part-2 .part-2-titre h1{
+    font-size: 50px;
+  }
+  .part-2 .part-2-texte{
+    font-size: 15px;
+  }
+  .main-1 .titre .part-1 h2{
+    font-size: 40px;
+  }
+}
+
+@media screen and (max-width: 1000px){
+  .part-2 .part-2-titre h1{
+    font-size: 40px;
+  }
+  .part-2 .part-2-texte{
+    font-size: 13px;
+  }
+  .main-1 .titre .part-1 h2{
+    font-size: 30px;
+  }
+
+  .main-1 .titre .part-2{
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+  }
+  
+  .main-1 .titre .part-2 .part-2-texte{
+    width: auto;
+  }
+
+  .main-1 .titre .part-2 .part-2-titre{
+    width: auto;
+    margin: 10px 0px;
+  }
+
+}
+
+
 
