@@ -24,7 +24,7 @@ main {
     text-align: center;
 }
 
-.bloc-news {
+.bloc-news-1 {
   margin-top: 25px;
   display: grid;
   grid-template-columns: 40% 1% 59%;
@@ -32,18 +32,12 @@ main {
   justify-content: center;
 }
 
-.bloc-news img {
-  width: 100%;
-  object-fit: cover;
-}
-
-.centered-text {
-  color: white;
-  font-weight: bold;
-  font-size: 20px;
-  position: absolute;
-  top: 50%;
-  left: 45%;
+.bloc-news-2 {
+  margin-top: 25px;
+  display: grid;
+  grid-template-columns: 60% 1% 39%;
+  align-items: center;
+  justify-content: center;
 }
 
 .contenu a {
@@ -66,4 +60,12 @@ main {
   color: white;
   font-weight: bold;
   font-size: 30px;
+}
+
+#article-1 {
+  width: 100%;
+  height: 100%;
+  background-image: url("../img/fond-article-1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
