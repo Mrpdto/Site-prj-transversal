@@ -11,6 +11,8 @@ main {
   width: 100%;
   padding: 10px;
   background-color: #afb5a2;
+  position: relative;
+
 }
 
 .contenu p, .contenu h3, .contenu ul {
@@ -19,4 +21,26 @@ main {
 
 .contenu h3 {
     text-align: center;
+}
+
+.bloc-news {
+  margin-top: 25px;
+  display: grid;
+  grid-template-columns: 40% 1% 59%;
+  align-items: center;
+  justify-content: center;
+}
+
+.bloc-news img {
+  width: 100%;
+  object-fit: contain;
+}
+
+.centered-text {
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 45%;
 }
