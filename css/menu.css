@@ -44,12 +44,14 @@ header .logo img {
 }
 
 header .menu {
-  width: 70%;
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-  margin-right: 20px;
+    width: 70%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-right: 20px;
 }
+
+
 
 header .menu .menu-normal {
   display: flex;
@@ -98,6 +100,48 @@ header .menu .menu-contact a {
   transform: scaleX(1);
 }
 
+.button-menu{
+    margin: 0px 50px; 
+    font-size: 40px;
+    display: none;
+}
+
+.menu-2{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    z-index: 1000;
+    display: none;
+}
+
+.menu-2.active{
+    display: block;
+}
+
+.button-close{
+    color: var(--text-blanc);
+    font-size: 40px;
+    text-align: center;
+}
+
+.menu-liens{
+    margin: 20px 0px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu-liens a{
+    font-size: 15px;
+    color: var(--text-blanc);
+    text-decoration: none;
+    margin: 20px 0px;
+}
+
 footer {
     padding: 30px 20px;
     display: flex;
@@ -128,4 +172,14 @@ footer ul::first-line {
 
 footer li {
     padding: 3px;
+}
+
+@media screen and (max-width: 1000px){
+    .button-menu{
+        display: block;
+    }
+
+    header .menu{
+        display: none;
+    }
 }
