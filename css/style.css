@@ -149,8 +149,8 @@ main {
 .main-3 .flip-card {
   cursor: pointer;
   background-color: transparent;
-  width: 300px;
-  height: 350px;
+  width: 350px;
+  height: 450px;
   margin: 15px;
   perspective: 1000px;
 }
@@ -160,6 +160,7 @@ main {
   width: 100%;
   height: 100%;
   text-align: center;
+  border-radius: 10px;
   transition: transform 0.6s;
   transform-style: preserve-3d;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
@@ -177,7 +178,7 @@ main {
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   border-radius: 10px;
-
+  padding: 10px;
 }
 
 .main-3 .flip-card-front {
@@ -192,10 +193,14 @@ main {
 .main-3 .flip-card-back {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: left;
   background-color: #333;
   color: var(--text-blanc);
   transform: rotateY(180deg);
+}
+
+.main-3 .flip-card-back ul {
+  list-style-type: none;
 }
 
 .main-3 a {
@@ -336,6 +341,17 @@ form textarea::placeholder {
     place-content: center;
     position: static;
   }
+
+  .image-slider {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .main-3 .flip-card-front,
+.flip-card-back, .flip-card, .flip-card-inner {
+  width: 100%;
+  height: 100%;
+}
 }
 
 
