@@ -74,7 +74,7 @@ main {
 .main-2 {
   margin-top: 100px;
   width: 90%;
-  height: 700px;
+  height: auto;
 }
 
 .main-2 .titre h2 {
@@ -320,6 +320,22 @@ form textarea::placeholder {
     margin: 10px 0px;
   }
 
+  .main-2 .contenu {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .main-2 .vl {
+    border-left: none;
+    height: 50px;
+  }
+
+  .box {
+    width: 100%;
+    height: 100%;
+    place-content: center;
+    position: static;
+  }
 }
 
 
