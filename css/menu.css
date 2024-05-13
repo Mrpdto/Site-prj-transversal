@@ -104,6 +104,7 @@ header .menu .menu-contact a {
     margin: 0px 50px; 
     font-size: 40px;
     display: none;
+    cursor: pointer;
 }
 
 .menu-2{
@@ -124,6 +125,7 @@ header .menu .menu-contact a {
     color: var(--text-blanc);
     font-size: 40px;
     text-align: center;
+    cursor: pointer;
 }
 
 .menu-liens{
